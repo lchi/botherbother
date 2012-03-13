@@ -45,7 +45,10 @@ tips = [
 "scp can be used to transfer files between machines",
 "use 'rsync' to recursively synchronize all directories between two (remote) locations.",
 "'clear' and ctrl-l both give you that fresh new terminal smell",
-"'history' lists a lot of previous commands."
+"'history' lists a lot of previous commands.",
+"You can use 'alias' to create aliases for commonly used and/or long commands.",
+"Didn't understand a tip?  Google it!",
+
 ]
 
 puts "-= #{tips.sample} =-"
