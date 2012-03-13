@@ -21,7 +21,9 @@ Now, when the run a command, you'll get a tip attached to the call you made.
     $ cd workspace/
     -= the pipe operator '|' feeds the output of one command as input to another.  yum. =-
     
-Note that this alias will only last for the life of your shell terminal, which is nice if you don't want them always to appear.  If you DO want them to always appear, take the alias command and put it in you .bashrc file in your home directory.  Putting it at the end will work just fine =D.
+Note that this alias will only last for the life of your shell terminal, which is nice if you don't want them always to appear.  If you DO want them to always appear, take the alias command and put it in you .bashrc file in your home directory.  Putting it at the end will work just fine =D.  
+
+Note that these tips are one liners and that you won't get the whole picture from just the tip. I encourage you to check the man page for anything you don't understand (man <command>), or search for it online.
 
 Contribute
 ----------
