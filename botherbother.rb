@@ -48,6 +48,7 @@ tips = [
 "'history' lists a lot of previous commands.",
 "You can use 'alias' to create aliases for commonly used and/or long commands.",
 "Didn't understand a tip?  Google it!",
+"Want to run more than one command on a line? Separate them with a semicolon ';'.",
 
 ]
 
