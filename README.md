@@ -8,7 +8,7 @@ Usage
 
 1.  Download the source, and make sure the botherbother.rb script is executable.
 
-    $ git clone	 git://github.com/lchi/botherbother.git
+    $ git clone git://github.com/lchi/botherbother.git
     $ chmod +x botherbother/botherbother.rb
 
 2.  Attach the botherbother script to a shell command, or just run it yourself.  Try _one_ of these examples:
