@@ -3,8 +3,26 @@ BOTHER BOTHER
 
 Gives you tips on how to become a better programmer/better in a traditional bash shell.
 
-Usage
------
+Installation and Usage (the easy way)
+-------------------------------------
+
+Use ``gem`` to install the botherbother executable, then try it out.
+
+    $ gem install botherbother
+    $ botherbother
+    -= gangstas use ctrl-f and ctrl-b instead of the left and right arrow keys dawg =-
+    
+Cool, it works!  All the script does is select one of many tips to display; to make it more useful, attach it to a shell command you use often, by running one of the following in your shell:
+
+    $ alias cd='botherbother; cd $@' # attaches botherbother to cd
+    $ alias ls='botherbother; cd $@' # attaches botherbother to ls
+
+This will execute botherbother everytime you run that command.  The above code just means that we want to overwrite ``cd`` to call ``botherbother``, then execute the original ``cd``.  
+
+Note that this alias will only last for the life of your shell terminal, which is nice if you don't want them always to appear.  If you DO want them to always appear, take the alias command and put it in you .bashrc file in your home directory.  Putting it at the end will work just fine =D.
+
+Installation and Usage (the hard way)
+-------------------------------------
 
 Download the source, and make sure the botherbother.rb script is executable.
 
@@ -23,7 +41,21 @@ Now, when the run a command, you'll get a tip attached to the call you made.
     
 Note that this alias will only last for the life of your shell terminal, which is nice if you don't want them always to appear.  If you DO want them to always appear, take the alias command and put it in you .bashrc file in your home directory.  Putting it at the end will work just fine =D.  
 
-Note that these tips are one liners and that you won't get the whole picture from just the tip. I encourage you to check the man page for anything you don't understand (man <command>), or search for it online.
+Uninstalling
+------------
+
+So sad!  If you want to uninstall and you used the easy way, run:
+
+   $gem uninstall botherbother
+
+Otherwise, just get rid of the source files your downloaded using rm.
+
+If put the alias into your ``.profile`` or ``.bashrc``, then deleting the alias line in the file will detach botherbother from the command.  Otherwise, quitting the shell and starting a new one will clear the alias.
+
+Learn more!
+-----------
+
+These tips are one liners and that you won't get the whole picture from just the tip. I encourage you to check the man page for anything you don't understand (man <command>), or search for it online.
 
 Contribute
 ----------
