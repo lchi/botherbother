@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'botherbother'
-  s.version     = '0.1'
+  s.version     = '0.1.01'
   s.date        = '2012-03-17'
   s.summary     = "Shell education: quick and easy shell tips."
   s.description = 'botherbother attaches to shell commands (cd) and gives you a random

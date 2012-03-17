@@ -51,7 +51,16 @@ $tips = [
         "You can use 'alias' to create aliases for commonly used and/or long commands.",
         "Didn't understand a tip?  Google it!",
         "Want to run more than one command on a line? Separate them with a semicolon ';'.",
-       ]
+         "When programs like grep or echo let you type to stdin, they're waiting for ctrl-d (EOF) to end it!",
+         "use du to check disk space usage, du | sort -g to find largest files!",
+         "use >> to append to a file from stdout instead of overwriting it with >",
+         "use tree to make a ascii representation of a directory tree that's easy to share",
+         "separate multiple commands with && to run the next only if no errors in the previous",
+         "ctrl-z (suspend) then bg to rescue a terminal you froze by launging a GUI prog in it",
+         "frozen terminal? You might have hit ctrl-s - try ctrl-q to resume it!",
+         "Know what shell you're using! Customize it with an .?rc file! Use a DVCS to maintain it!",
+         "Are you using plain ls when you type ls? Try 'alias ls' to find out!"
+        ]
 
 def bother
   "-= #{$tips.sample} =-"
