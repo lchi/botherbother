@@ -15,7 +15,7 @@ Use ``gem`` to install the botherbother executable, then try it out.
 Cool, it works!  All the script does is select one of many tips to display; to make it more useful, attach it to a shell command you use often, by running one of the following in your shell:
 
     $ alias cd='botherbother; cd $@' # attaches botherbother to cd
-    $ alias ls='botherbother; cd $@' # attaches botherbother to ls
+    $ alias ls='botherbother; ls $@' # attaches botherbother to ls
 
 This will execute botherbother everytime you run that command.  The above code just means that we want to overwrite ``cd`` to call ``botherbother``, then execute the original ``cd``.  
 
