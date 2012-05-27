@@ -46,7 +46,7 @@ Uninstalling
 
 So sad!  If you want to uninstall and you used the easy way, run:
 
-   $gem uninstall botherbother
+    $ gem uninstall botherbother
 
 Otherwise, just get rid of the source files your downloaded using rm.
 
